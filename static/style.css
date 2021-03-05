@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.kp {
+  display: flex;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(126, 122, 122);
+  color: white;
+  text-align: center;
+}
+
+.footer a {
+  color: aliceblue;
+}
+
+.nvi {
+  background-color: rgb(179, 179, 62);
+}
+
+.ak {
+  padding-top: 200px;
+}
+
+/* error page style */
+
+.mainbox {
+  background-color: #95c2de;
+  height: 600px;
+  width: auto;
+  position: relative;
+  margin-top: 100px;
+}
+
+.err {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 20%;
+  top: 8%;
+}
+
+.far {
+  position: absolute;
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: #ffffff;
+}
+
+.err2 {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 68%;
+  top: 8%;
+}
+
+.msg {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  left: 16%;
+  top: 45%;
+  width: 75%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.pok{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.lp{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: rgb(173, 169, 163);
+  border-radius: 10px;
+}
